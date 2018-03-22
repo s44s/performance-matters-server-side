@@ -1,0 +1,12 @@
+<%- include('partials/head.ejs') %>
+
+		<h1>Kies uw stadsdeel</h1>
+    <% for(var i=0; i < stadsdelen.length; i++) {%>
+		<a href="/<%= stadsdelen[i].id%>">
+      <button id="<%= stadsdelen[i].id %>">
+        <%= stadsdelen[i].text %>
+      </button>
+		</a>
+    <% } %>
+
+<%- include('partials/foot.ejs') %>
