@@ -1,0 +1,56 @@
+body {
+    background-color: whitesmoke;
+    font-family: arial;
+    margin: 2%;
+    height: auto;
+}
+
+p {
+    font-family: arial;
+    text-align: center;
+    font-size: 3vw;
+    height: auto;
+    width: 100%;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin-bottom: 3%;
+}
+
+.head {
+    float: left;
+    width: 100%;
+}
+
+.logo {
+    width: 8%;
+    float: left;
+    margin-left: 1%;
+    position: absolute;
+}
+
+button {
+    width: 31.3%;
+    float: left;
+    margin: 1% 1% 1% 1%;
+    padding: 2em 0em 2em 0em;
+    text-align: center;
+    background-color: grey;
+}
+
+button:hover {
+background-color: lightgray;
+}
+
+button:active {
+background-color: whitesmoke;
+}
+
+#container {
+    width: 100%;
+    float: left;
+}
