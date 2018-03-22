@@ -16,3 +16,4 @@ TO DO:
 * commonJS (?)
 * node-cache toevoegen om performance te verbeteren
 * gitignore voor node_modules
+* relevante optimalisaties toe passen op deze app + documenteren (werken in feature branches)
