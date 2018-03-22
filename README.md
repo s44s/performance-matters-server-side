@@ -7,7 +7,6 @@ git clone
 npm install
 npm install nodemon
 npm start
-
 ```
 
 TO DO:
