@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var data = require('./detail.js')
+// var data = require('./detail.js')
 
 
 var stadsdelen = [
@@ -40,7 +40,6 @@ var stadsdelen = [
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-	console.log(data.rows)
 	res.render('index', {
         stadsdelen: stadsdelen
   });
