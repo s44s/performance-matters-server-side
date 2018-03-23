@@ -18,4 +18,8 @@ TO DO:
 * node-cache toevoegen om performance te verbeteren
 * gitignore voor node_modules
 
-![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/schets1.jpg "Schets")
+![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/1.png "Schets")
+
+![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/2.png "Schets")
+
+![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/3.png "Schets")
