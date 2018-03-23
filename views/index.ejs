@@ -1,12 +1,26 @@
 <%- include('partials/head.ejs') %>
 
-		<h1>Kies uw stadsdeel</h1>
-    <% for(var i=0; i < stadsdelen.length; i++) {%>
-		<a href="/<%= stadsdelen[i].id%>">
-      <button id="<%= stadsdelen[i].id %>">
-        <%= stadsdelen[i].text %>
-      </button>
-		</a>
-    <% } %>
+		<main>
+			<section>
+				<article>
+					<h1>Zijn onze eigentijdse problemen nog wel zo erg? </h1>
+					<p>Bijna verkiezingstijd.. Weet u al wat u gaat kiezen? Klik op een stadsdeel om de vergelijking te zien tussen destijdse kwesties en de huidige onderwerpen die spelen in uw wijk. Wat kunnen we daar voor een conclusies uit trekken? Waren toen der tijd de kwesties zwaarder? Of praten we nog steeds over dezelfde ergenissen?</p>
+				</article>
+				<div id="mapid"></div>
+			</section>
+			<aside>
+				<h1>Stadsdelen van Amsterdam</h1>
+				<button></button>
+				<input placeholder="Stadsdeel"></input>
+				<% for(var i=0; i < stadsdelen.length; i++) {%>
+				<a href="/<%= stadsdelen[i].id%>">
+					<button id="<%= stadsdelen[i].id %>">
+						<%= stadsdelen[i].text %>
+					</button>
+				</a>
+				<% } %>
+			</aside>
+		</main>
+
 
 <%- include('partials/foot.ejs') %>

@@ -4,7 +4,7 @@
   "description": "Application for the OBA",
   "main": "index.js",
   "scripts": {
-		"start": "nodemon app.js",
+		"start": "nodemon app.js --inspect",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "suustenvoorde",

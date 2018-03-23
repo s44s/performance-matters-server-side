@@ -10,10 +10,12 @@ npm start
 ```
 
 TO DO:
-* stylen dmv CSS
+* CSS toevoegen
 * javascript toevoegen om de site te enhancen
 * browserify (er is momenteel nog geen client side javascript)
 * commonJS (?)
 * relevante optimalisaties toe passen op deze app + documenteren (werken in feature branches)
 * node-cache toevoegen om performance te verbeteren
 * gitignore voor node_modules
+
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/schets1.jpg "Schets")
