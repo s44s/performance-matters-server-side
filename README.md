@@ -20,6 +20,8 @@ TO DO:
 
 ![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/1.png "Schets" width=100)
 
+<img src="" data-canonical-src="https://github.com/s44s/performance-matters-server-side/blob/master/public/images/1.png" width="200" />
+
 ![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/2.png "Schets" width=100)
 
 ![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/3.png "Schets" width=100)
