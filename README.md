@@ -43,3 +43,7 @@ Run `npm start` to start the server on port 3000. Nodemon is already setup in th
 Job story/user story:
 
 If the user have visited the page online before and the network in the browsers stops, the page is still available offline. You will receive an alert about the network problem. If you are going to check an other page you haven't seen before, you will get a 'offline' page back. This page will tell you that you lost your connection with the network.
+
+After I installed the service-worker my audit Progressive Web App scores are way better than before.
+
+![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/progressive.jpg "Schets")
