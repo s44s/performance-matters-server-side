@@ -46,4 +46,4 @@ If the user have visited the page online before and the network in the browsers 
 
 After I installed the service-worker my audit Progressive Web App scores are way better than before.
 
-![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/progressive.jpg "Schets")
+![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/progressivewebapp.jpg "Schets")
