@@ -44,7 +44,6 @@ router.get('/:id', function(req, res, next) {
 			.then(function(data) {
 
 			rows = data.results.bindings; // get the results
-
 			res.render('detail/detail', {
 				posters: rows,
 				id: id,
