@@ -45,7 +45,7 @@ router.get('/:id', function(req, res, next) {
 
 			rows = data.results.bindings; // get the results
 
-			res.render('detail/index', {
+			res.render('detail/detail', {
 				posters: rows,
 				id: id,
 			});
@@ -55,7 +55,7 @@ router.get('/:id', function(req, res, next) {
 		});
 
 	} else {
-	 res.render('detail/index', {
+	 res.render('detail/detail', {
 		 posters: rows,
 		 id: id,
 	 });

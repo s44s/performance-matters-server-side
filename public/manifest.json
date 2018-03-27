@@ -1,0 +1,18 @@
+{
+	"name": "Politieke posters in vergelijking met huidige kwesties",
+	"short_name": "Protest",
+	"description": null,
+	"dir": "auto",
+	"display": "standalone",
+	"start_url": "?homescreen=1",
+	"background_color": "blue",
+	"theme_color": "red",
+	"icons": [
+		{
+			"src": "/apple-touch-icon.png",
+			"sizes": "180x180",
+			"type": "image/png"
+		}
+	]
+
+}

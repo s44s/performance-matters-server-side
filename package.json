@@ -4,13 +4,15 @@
   "description": "Application for the OBA",
   "main": "index.js",
   "scripts": {
-		"start": "nodemon app.js --inspect",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"build": "browserify public/js/*.js -o public/dist/bundle.js"
   },
   "author": "suustenvoorde",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.7",
-    "express": "^4.16.0"
+    "express": "^4.16.0",
+    "path": "^0.12.7"
   }
 }
