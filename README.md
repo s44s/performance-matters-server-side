@@ -1,21 +1,33 @@
-# performance-matters-server-side
+# Protest app server-side
 
-MVP: Per stadsdeel krijg je een lijst te zien van de posters en tweets die betrekking hebben op het gekozen stadsdeel.
+This project is a minimized server-side version of the [OBA project](https://github.com/s44s/project1-quick-hack-prototype). As a minimum viable product (MVP), its main task is to show a list of posters and tweets relate to a district in Amsterdam. You can compare the views of the population in time.
+
+![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/app.png "Schets")
+
+## How to build
+First of all, clone the repo `git clone`
+
+Install dependencies and build all the js files
 
 ```
-git clone
 npm install
-npm install nodemon
-npm start
+npm build
 ```
 
-TO DO:
-* CSS toevoegen
-* javascript toevoegen om de site te enhancen
-* browserify (er is momenteel nog geen client side javascript)
-* commonJS (?)
-* relevante optimalisaties toe passen op deze app + documenteren (werken in feature branches)
-* node-cache toevoegen om performance te verbeteren
-* gitignore voor node_modules
+Run `npm start` to start the server on port 3000. Nodemon is already setup in the npm start script, so your files are updated automatically.
+
+## Features and tooling
+
+- [x] Works without JavaScript
+- [x] Works offline: Service worker (if you have used the page online before)
+- [x] Server: express
+- [x] Templating: EJS
+- [x] Bundling server side: CommonJS
+- [x] Bundling client side: Browserify
+
+## Performance
 
 ![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/pjimage.jpg "Schets")
+
+## Service-worker
+Job story/user story:

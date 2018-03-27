@@ -49,6 +49,14 @@
 })()
 
 },{}],2:[function(require,module,exports){
+
+if (navigator.onLine == true){
+	console.log('network connection with the browser')
+} else {
+	window.alert('No network detected. You are seeing a cached page');
+}
+
+},{}],3:[function(require,module,exports){
 console.log('test');
 
-},{}]},{},[1,2]);
+},{}]},{},[1,2,3]);
