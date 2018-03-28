@@ -71,3 +71,9 @@ If the user have visited the page online before and the network in the browsers 
 After I installed the service-worker my audit Progressive Web App scores are way better than before.
 
 ![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/progressivewebapp.jpg "Schets")
+
+When the user's connection is lost, but the page was already visited. The user will receive an alert about the connection that is lost. If the user is going to browse to a new page, the user will see the offline page with the info that this paged isn't offline available.
+
+![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/serviceworker-offline-page.png "Schets")
+
+![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/serviceworker-offline-cache.png "Schets")
