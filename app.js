@@ -15,7 +15,7 @@ var detailRouter = require('./routes/detail');
 
 // connect routers to routes, weblinkjes
 app.use('/', indexRouter);
-app.use('/stadsdeel', detailRouter);
+app.use('/', detailRouter);
 
 //run
 app.listen(3000, function () {
