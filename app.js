@@ -7,7 +7,7 @@ var path = require('path');
 app.set('views', 'views');
 app.set('view engine', 'ejs');
 
-// app.use(express.static('public'))
+app.use(express.static('public'))
 
 //de routes defineren (zelfde structuur als mappen)
 var indexRouter = require('./routes/index');
@@ -15,7 +15,7 @@ var detailRouter = require('./routes/detail');
 
 // connect routers to routes, weblinkjes
 app.use('/', indexRouter);
-app.use('/', detailRouter);
+app.use('/stadsdeel', detailRouter);
 
 //run
 app.listen(3000, function () {
