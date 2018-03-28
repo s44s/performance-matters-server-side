@@ -14,7 +14,7 @@
 
 				if (posters[i].locationLabel.value.toLowerCase() == id || amsterdam.toLowerCase() == id || rapenburg.toLowerCase() == id || grachten.toLowerCase() == id || pijp.toLowerCase() == id) { %>
 
-			<img src="<%= posters[i].img.value%>"/>
+			<img src="<%= posters[i].img.value.replace("http", "https") %>"/>
 			<div class="details">
 					<p><%= posters[i].title.value %></p>
 					<p><%= posters[i].subject.value %></p>
