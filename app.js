@@ -2,12 +2,14 @@
 var express = require('express');
 var app = express();
 var path = require('path');
+var compression = require('compression');
 
 // view engine setup > templates weergeven
 app.set('views', 'views');
 app.set('view engine', 'ejs');
 
-app.use(express.static('public'))
+app.use(express.static('public'));
+app.use(compression());
 
 //de routes defineren (zelfde structuur als mappen)
 var indexRouter = require('./routes/index');

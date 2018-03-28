@@ -32,24 +32,35 @@ From client-side to server-side saved a lot already. From a load from 1.25s to 3
 
 ![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/pjimage.jpg "Schets")
 
-### JS minify
 
-### CSS minify
+### Service worker
+![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/serviceworker.jpg "Schets")
 
 ### Custom fonts
 In my project for the OBA I had used the fontawesome for a icon in a button. I changed my fontawesome to a SVG.
 
 Result:
-I saved 34ms and 3.5kb!
+I saved 34ms!
 
 Before:
-![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/before-font.jpg "Schets")
+![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/before-font.png "Schets")
 
 After:
-![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/after-font.jpg "Schets")
+![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/after-font.png "Schets")
 
-### Service worker
-![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/serviceworker.jpg "Schets")
+### Gzip
+Before Gzip the performance was on 61 and after the Gzip with the compression module, it changed to 93! Wow!
+
+Also, from 6.5 kb to 1.8kb (4.7kb less)
+load time: 398ms to 387ms.
+
+Gzip saved a lot!
+
+![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/gzip-before.png "Schets")
+
+![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/gzip-after.png "Schets")
+
+![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/gzip-after2.png "Schets")
 
 ## Service-worker
 ### Job story:
